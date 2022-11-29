@@ -1,0 +1,143 @@
+
+body {
+    color:#40514E;
+    margin:0;
+    text-align:center;
+    font-family:"Merriweather", serif; /* tries verdana first, then the default sans-serif if verdana isn't available. can have multiple "else" fonts. web safe fonts have a high likelihood of rendering like you want */
+}
+
+h1 {
+    margin:50px auto 0px auto;
+    font-size:560%;
+    color:#497174;
+    font-family:"Sacramento", cursive;
+    line-height:2;
+}
+
+h2 {
+    font-size:2.5rem;
+    color:#497174;
+    font-family:"Montserrat", sans-serif;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family:"Montserrat", sans-serif;
+    color:#EB6440;
+    font-weight:bold;
+}
+
+p {
+    font-weight:bold;
+    padding:15px;
+}
+
+a {
+    color:#497174;
+    font-family:"Montserrat", sans-serif;
+    font-weight:bold;
+    margin:10px 20px;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#EAF6F6;
+}
+
+hr {
+    border:7px dotted #D6E4E5;
+    border-bottom:none;
+    height:2px;
+    width:4%;
+    margin: 100px auto;
+}
+
+p {
+    line-height:2;
+}
+.topcontainer {
+    background-color:#EFF5F5;
+    position:relative;
+}
+
+.profile-img {
+    width:230px;
+    height:230px;
+    object-fit:contain;
+}
+
+.intro {
+    width:30%;
+    margin:auto;
+}
+
+.contact-me {
+    margin: 100px;
+}
+
+.contact-message {
+    width: 40%;
+    margin:40px auto 60px;
+}
+
+.copyright {
+    font-size:.75rem;
+    padding: 20px 0;
+}
+
+.skill-row {
+    width:50%;
+    margin:100px auto 200px auto;
+    text-align:left;
+}
+
+.computer {
+    width:25%;
+    float:left; /* allows the text to move next to the image, and wrap around below */
+    margin-right:30px; /* to move the text that's wrapping (float) away from the image */
+}
+
+.calligraphy {
+    width:25%;
+    float:right;
+    margin-left:10px;
+}
+
+.middle-container {
+    margin: 100px 0px;
+}
+
+.bottom-container {
+    background-color:#D6E4E5;
+    padding:50px 0 20px;
+}
+
+.top-cloud {
+    position:relative;
+    left:400px;
+    top:40px;
+}
+
+.bottom-cloud {
+    position:absolute;
+    left:250px;
+    bottom:300px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:"Montserrat", sans-serif;
+  color: 497174;
+  font-size: 20px;
+  background: #D6E4E5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #EFF5F5;
+  text-decoration: none;
+}
+
